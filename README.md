@@ -1,21 +1,33 @@
-# Reel-Urls-Extractor
-
-
-
-
+# Reel URLs Extractor
 
 ## How to Use
-  ##Go to Page you want to extract urls
-  ##click on reels Tab (Showing Multiple Reels in Cloums)
-  #Press `F12` 
-  #copy the Html Tag
-  #Visit [Coding Beauty](https://codingbeautydev.com)
-  #Visit [URl Genrator (click me)((https://0xansr.github.io/Deb/reel.html)) 
-  #Paste in TExt Box Than click on Genratet urls
 
-1. Save the HTML code in a file with a `.html` extension (e.g., `reel-url-generator.html`).
-2. Open the file in a web browser.
-3. Paste the HTML text containing multiple reel IDs into the `<textarea>`.
-4. Click "Generate URLs" to see the list of formatted URLs with clickable links.
+1. **Go to the Page You Want to Extract URLs From**
+   - Navigate to the webpage that contains the reel IDs.
 
-This updated tool will handle multiple reel IDs from the input text and generate corresponding URLs, displaying them for easy access.
+2. **Click on the Reels Tab**
+   - This will show multiple reels in columns.
+
+3. **Press F12**
+   - This opens the Developer Tools in your browser.
+
+4. **Copy the HTML Tag**
+   - Locate and copy the HTML content that contains the reel IDs.
+
+5. **Visit URL Generator Page **
+   - Open [URL Generator (click me)](https://0xansr.github.io/Deb/reel.html).
+
+6. **Paste in Text Box**
+   - Paste the copied HTML content into the textarea provided on the URL Generator page.
+
+7. **Click on Generate URLs**
+   - Click the button to generate the URLs.
+
+## Additional Notes
+
+- Save the HTML code in a file with a `.html` extension (e.g., `reel-url-generator.html`).
+- Open the file in a web browser.
+- Paste the HTML text containing multiple reel IDs into the `<textarea>`.
+- Click "Generate URLs" to see the list of formatted URLs with clickable links.
+
+This tool will handle multiple reel IDs from the input text and generate corresponding URLs, displaying them for easy access.
