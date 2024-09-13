@@ -5,8 +5,8 @@
 
 
 ## How to Use
-  #Go to Page you want to extract urls
-  #click on reels Tab (Showing Multiple Reels in Cloums)
+  ##Go to Page you want to extract urls
+  ##click on reels Tab (Showing Multiple Reels in Cloums)
   #Press `F12` 
   #copy the Html Tag
   #Visit [Coding Beauty](https://codingbeautydev.com)
