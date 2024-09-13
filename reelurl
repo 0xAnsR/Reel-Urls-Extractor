@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reel URL Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+        }
+        textarea {
+            width: 100%;
+            height: 150px;
+            margin-bottom: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+        .result {
+            margin-top: 20px;
+        }
+        .result a {
+            display: block;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Reel URL Generator</h1>
+        <p>Paste the HTML text containing the reel IDs below and click "Generate URLs" to create the formatted URLs.</p>
+        <textarea id="textInput" placeholder="Paste your HTML text here..."></textarea>
+        <button onclick="generateURLs()">Generate URLs</button>
+        <div class="result" id="result"></div>
+    </div>
+
+    <script>
+        function extractReelIds(text) {
+            const regex = /\/reel\/(\d+)/g;
+            const matches = [];
+            let match;
+            while ((match = regex.exec(text)) !== null) {
+                matches.push(match[1]);
+            }
+            return matches;
+        }
+
+        function generateURLs() {
+            const textInput = document.getElementById('textInput').value;
+            const reelIds = extractReelIds(textInput);
+            const resultDiv = document.getElementById('result');
+            if (reelIds.length > 0) {
+                resultDiv.innerHTML = '<strong>Generated URLs:</strong><br>';
+                reelIds.forEach(id => {
+                    const url = `https://web.facebook.com/reel/${id}`;
+                    resultDiv.innerHTML += `<a href="${url}" target="_blank">${url}</a>`;
+                });
+            } else {
+                resultDiv.innerHTML = 'No reel IDs found.';
+            }
+        }
+    </script>
+</body>
+</html>
