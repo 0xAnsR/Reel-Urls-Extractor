@@ -1,11 +1,7 @@
 # Reel-Urls-Extractor
-# Reel URL Generator
 
-## HTML Structure
 
-- `<textarea>`: For pasting the block of HTML text.
-- `<button>`: To trigger the URL generation.
-- `<div>`: To display the results.
+
 
 
 ## How to Use
@@ -13,7 +9,8 @@
 #click on reels Tab (Showing Multiple Reels in Cloums)
 #Press `F12` 
 #copy the Html Tag
-#Paste in TExt Box Than click on Genterat urls
+#Visit [URl Genrator (click me)https://0xansr.github.io/Deb/reel.html]([https://codingbeautydev.com](https://0xansr.github.io/Deb/reel.html)) https://0xansr.github.io/Deb/reel.html
+#Paste in TExt Box Than click on Genratet urls
 
 1. Save the HTML code in a file with a `.html` extension (e.g., `reel-url-generator.html`).
 2. Open the file in a web browser.
