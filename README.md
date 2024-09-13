@@ -9,7 +9,7 @@
 #click on reels Tab (Showing Multiple Reels in Cloums)
 #Press `F12` 
 #copy the Html Tag
-#Visit [URl Genrator (click me)([https://codingbeautydev.com(https://0xansr.github.io/Deb/reel.html)) 
+#Visit [URl Genrator (click me)((https://0xansr.github.io/Deb/reel.html)) 
 #Paste in TExt Box Than click on Genratet urls
 
 1. Save the HTML code in a file with a `.html` extension (e.g., `reel-url-generator.html`).
